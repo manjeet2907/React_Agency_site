@@ -1,0 +1,38 @@
+.nav_bg{
+    position: sticky !important;
+    top:0;
+    height: fit-content ;
+    z-index: 999;
+    background-color: whitesmoke !important;
+}
+
+.navbar{
+    
+    
+    .navbar-brand{
+        font-size: 2rem;
+        // animation: 0.3s 0.3s transform ease-in-out;
+        
+        &:hover{
+            font-weight: bold;
+            color:teal !important;
+        }
+    }
+    .menu_active{
+        font-weight: bold;
+        border-bottom: 1px solid green;
+    }
+ 
+}
+@media (max-width:480px) {
+    
+    .dash{
+        min-width: 100% !important;
+        margin-left: 0 !important;;
+    }
+    .navbar{
+        .navbar-brand{
+            font-size: 1.6rem;
+        }
+    }
+}

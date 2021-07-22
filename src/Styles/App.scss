@@ -1,0 +1,16 @@
+@import './Pages/about';
+@import './Pages/contact';
+@import './Pages/home';
+@import './Pages/service';
+@import './Pages/Components/header';
+@import './Pages/Components/navbar';
+@import './Pages/Components/card';
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+}
+.about, .home, .contact,.service{
+    min-height:100vh;
+}
