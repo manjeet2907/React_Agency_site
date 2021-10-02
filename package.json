@@ -1,6 +1,5 @@
 {
   "name": "agencywebdemo",
-  "homepage": "https://manjeet2907.github.io/React_Agency_site/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,10 +15,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
