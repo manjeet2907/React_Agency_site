@@ -15,7 +15,7 @@ function App() {
     <div className='app'>
       <Navbar />
       <Routes>
-        <Route end path='/' element={<Home />} />
+        <Route end path='/React_Agency_site' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Service />} />
         <Route path='/contact' element={<Contact />} />
